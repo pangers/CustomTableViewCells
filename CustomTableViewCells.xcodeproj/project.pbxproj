@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AE27ED01AA6F28A00CC5314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE27ECF1AA6F28A00CC5314 /* AppDelegate.swift */; };
-		1AE27ED21AA6F28A00CC5314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE27ED11AA6F28A00CC5314 /* ViewController.swift */; };
+		1AE27ED21AA6F28A00CC5314 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE27ED11AA6F28A00CC5314 /* ListViewController.swift */; };
 		1AE27ED51AA6F28A00CC5314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE27ED31AA6F28A00CC5314 /* Main.storyboard */; };
 		1AE27ED71AA6F28A00CC5314 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE27ED61AA6F28A00CC5314 /* Images.xcassets */; };
 		1AE27EDA1AA6F28A00CC5314 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE27ED81AA6F28A00CC5314 /* LaunchScreen.xib */; };
@@ -34,7 +34,7 @@
 		1AE27ECA1AA6F28A00CC5314 /* CustomTableViewCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableViewCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE27ECE1AA6F28A00CC5314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE27ECF1AA6F28A00CC5314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AE27ED11AA6F28A00CC5314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AE27ED11AA6F28A00CC5314 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		1AE27ED41AA6F28A00CC5314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AE27ED61AA6F28A00CC5314 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AE27ED91AA6F28A00CC5314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 			children = (
 				1AE27EEF1AA6F29500CC5314 /* Images */,
 				1AE27ECF1AA6F28A00CC5314 /* AppDelegate.swift */,
-				1AE27ED11AA6F28A00CC5314 /* ViewController.swift */,
+				1AE27ED11AA6F28A00CC5314 /* ListViewController.swift */,
 				1AE27ED31AA6F28A00CC5314 /* Main.storyboard */,
 				1AE27ED61AA6F28A00CC5314 /* Images.xcassets */,
 				1AE27ED81AA6F28A00CC5314 /* LaunchScreen.xib */,
@@ -240,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AE27ED21AA6F28A00CC5314 /* ViewController.swift in Sources */,
+				1AE27ED21AA6F28A00CC5314 /* ListViewController.swift in Sources */,
 				1AE27ED01AA6F28A00CC5314 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +435,7 @@
 				1AE27EEB1AA6F28A00CC5314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AE27EEC1AA6F28A00CC5314 /* Build configuration list for PBXNativeTarget "CustomTableViewCellsTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +444,7 @@
 				1AE27EEE1AA6F28A00CC5314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
